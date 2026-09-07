@@ -101,6 +101,8 @@ outputs:
     build:
       skip:
         - not win
+        # WinDivert (windivert-sys) supports x86/x64 only.
+        - target_platform == "win-arm64"
         - match(python, "<3.12")
       script:
         # Upstream's pyproject.toml expects target/release/windows-redirector.exe.
@@ -162,7 +164,7 @@ outputs:
         - maturin >=1.10.1,<2
       run:
         - python
-        - if: win
+        - if: win and target_platform != "win-arm64"
           then:
             - ${{ pin_subpackage('mitmproxy-windows', exact=True) }}
         - if: linux
