@@ -44,45 +44,59 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_python3.12.____cpython</td>
+              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgeconda-forgelabelpython_rcpython3.15.____cp315</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgeconda-forgelabelpython_rcpython3.15.____cp315" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.13.____cp313</td>
+              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.14.____cp314</td>
+              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.14.____cp314" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.13.____cp313" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.12.____cpython</td>
+              <td>osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.14.____cp314</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.13.____cp313</td>
+              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgeconda-forgelabelpython_rcpython3.15.____cp315</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.13.____cp313" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgeconda-forgelabelpython_rcpython3.15.____cp315" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>win_64_python3.14.____cp314</td>
+              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=win&configuration=win%20win_64_python3.14.____cp314" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.14.____cp314</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26960&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/mitmproxy-rs-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_channel_sourcesconda-forgelabelrust_devconda-forgepython3.14.____cp314" alt="variant">
                 </a>
               </td>
             </tr>
@@ -113,31 +127,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `mitmproxy-linux, mitmproxy-macos, mitmproxy-rs, mitmproxy-windows` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install mitmproxy-linux mitmproxy-macos mitmproxy-rs mitmproxy-windows
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install mitmproxy-linux mitmproxy-macos mitmproxy-rs mitmproxy-windows
 ```
 
-It is possible to list all of the versions of `mitmproxy-linux` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add mitmproxy-linux mitmproxy-macos mitmproxy-rs mitmproxy-windows
+# for installing globally
+pixi global install mitmproxy-linux mitmproxy-macos mitmproxy-rs mitmproxy-windows
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `mitmproxy-linux` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search mitmproxy-linux --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search mitmproxy-linux --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search mitmproxy-linux --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -149,6 +205,8 @@ mamba repoquery whoneeds mitmproxy-linux --channel conda-forge
 # List dependencies of `mitmproxy-linux`:
 mamba repoquery depends mitmproxy-linux --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
