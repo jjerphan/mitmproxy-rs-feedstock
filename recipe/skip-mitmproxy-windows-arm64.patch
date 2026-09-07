@@ -1,0 +1,22 @@
+--- a/mitmproxy-rs/src/lib.rs
++++ b/mitmproxy-rs/src/lib.rs
+@@ -125,7 +125,7 @@
+         m.py().import("mitmproxy_macos")?;
+         #[cfg(all(target_os = "linux", not(feature = "docs")))]
+         m.py().import("mitmproxy_linux")?;
+-        #[cfg(windows)]
++        #[cfg(all(windows, not(target_arch = "aarch64")))]
+         m.py().import("mitmproxy_windows")?;
+ 
+         Ok(())
+--- a/mitmproxy-rs/pyproject.toml
++++ b/mitmproxy-rs/pyproject.toml
+@@ -17,7 +17,7 @@
+ ]
+ 
+ dependencies = [
+-    "mitmproxy_windows; os_name == 'nt'",
++    "mitmproxy_windows; os_name == 'nt' and platform_machine != 'ARM64' and platform_machine != 'aarch64'",
+     "mitmproxy_linux; sys_platform == 'linux'",
+     "mitmproxy_macos; sys_platform == 'darwin'",
+ ]
