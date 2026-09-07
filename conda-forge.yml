@@ -11,6 +11,7 @@ test: native_and_emulated
 conda_install_tool: pixi
 provider:
   linux_aarch64: default
+  win_arm64: default
   # linux_ppc64le: disabled due to upstream aya-build bug (target_arch_fixup doesn't normalize powerpc64le → powerpc64) - Claude Code
 workflow_settings:
   store_build_artifacts:
